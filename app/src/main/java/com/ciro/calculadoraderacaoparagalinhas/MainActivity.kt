@@ -15,15 +15,15 @@ class MainActivity : AppCompatActivity() {
         val resultado = findViewById<TextView>(R.id.quantidadesTXT)
 
         //Ração para aves de crescimento ( 31 a 60 dias)
-        val listaDeIgredientes = listOf<Igrediente>(
-            Igrediente("Milho Moido (kg): ",0.550F),
-            Igrediente("Farelo de Soja (kg): ",0.340F),
-            Igrediente("Farelo de Trigo (kg): ",0.070F),
-            Igrediente("Óleo de Soja (ml): ",0.0160F),
-            Igrediente("Calcário Calcítrico (kg): ",0.010F),
-            Igrediente("Fosfato Bicálcico (kg): ",0.010F),
-            Igrediente("Sal Comum (kg): ",0.0030F),
-            Igrediente("Premix Vitamínico e Mineral (kg): ",0.0010F),
+        val listaDeIgredientes = listOf<Ingrediente>(
+            Ingrediente("Milho Moido (kg): ",0.550F),
+            Ingrediente("Farelo de Soja (kg): ",0.340F),
+            Ingrediente("Farelo de Trigo (kg): ",0.070F),
+            Ingrediente("Óleo de Soja (ml): ",0.0160F),
+            Ingrediente("Calcário Calcítrico (kg): ",0.010F),
+            Ingrediente("Fosfato Bicálcico (kg): ",0.010F),
+            Ingrediente("Sal Comum (kg): ",0.0030F),
+            Ingrediente("Premix Vitamínico e Mineral (kg): ",0.0010F),
         )
 
         totalRacao.doAfterTextChanged {

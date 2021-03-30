@@ -1,5 +1,5 @@
 package com.ciro.calculadoraderacaoparagalinhas
 
-class Igrediente (
+class Ingrediente (
     var nome: String,
     var quantidade: Float)
